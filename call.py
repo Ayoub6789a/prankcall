@@ -14,7 +14,7 @@ C = '\033[1;36m'
 W = '\033[1;37m'
 A = '\033[90m'
 
-from requests.exceptions import ConnectionError
+from requests.exceptions import Connection
 from cookielib import LWPCookieJar as Cookie
 from time import sleep
 import platform, requests, random, sys, os
